@@ -20,13 +20,13 @@ html {
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: solid red;
+    background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
 }
 
-h2,
-p {
+.card h2,
+.card p {
     margin: 0;
 }
 
@@ -38,7 +38,7 @@ p {
     padding: 1em;
 }
 
-header h2 {
+.card header h2 {
     font-size: 2em;
     line-height: 1.5em;
 }
@@ -50,7 +50,7 @@ header h2 {
     padding: 1em;
 }
 
-footer p {
+.card footer p {
     font-size: 1.5em;
     line-height: 1.5em;
 }
@@ -61,12 +61,13 @@ footer p {
     float: right;
 }
 
-article {
+.card article {
     height: 12em;
     background-color: rgba(0, 0, 0, 0.2);
     color: white;
 }
-article p{
+
+.card article p {
     font-size: 1.2em;
     padding: 1em;
 }
